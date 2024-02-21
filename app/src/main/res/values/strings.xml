@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Gratitude Journal</string>
+    <string name="title_home">Journal</string>
+    <string name="title_dashboard">Insight</string>
+    <string name="title_notifications">Settings</string>
+    <string name="bt_entry_save">Save</string>
+    <string name="hint_entry">Message</string>
+    <string name="cultivate_gratitude">Cultivate Gratitude</string>
+    <string name="next">Next</string>
+    <string name="whats_your_name">What\'s your name?</string>
+    <string name="tv_entry_sun">Today was a good day because:</string>
+    <string name="tv_entry_moon">Tonight I am thankful for:</string>
+    <string name="total_entries">Total entries</string>
+    <string name="days_with_application">"Days with the application "</string>
+    <string name="days_application">"Days with the application "</string>
+    <string name="percentage_emotions">Percentage of emotions</string>
+    <string name="days">" days"</string>
+    <string name="entries">" entries"</string>
+    <string name="good_morning">Good morning</string>
+    <string name="good_afternoon">Good afternoon</string>
+    <string name="good_evening">Good evening</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_onboarding0">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="org.insbaixcamp.gratitude.journal.daily.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_journal"
+            app:destination="@id/navigation_journal"
+            app:launchSingleTop="false"
+            app:popUpTo="@id/navigation_home"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="org.insbaixcamp.gratitude.journal.daily.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="org.insbaixcamp.gratitude.journal.daily.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_insight"
+        android:name="org.insbaixcamp.gratitude.journal.daily.ui.insight.InsightFragment"
+        android:label="fragment_insight"
+        tools:layout="@layout/fragment_insight" />
+    <fragment
+        android:id="@+id/navigation_journal"
+        android:name="org.insbaixcamp.gratitude.journal.daily.ui.journal.JournalFragment"
+        android:label="fragment_journal"
+        tools:layout="@layout/fragment_journal" >
+        <action
+            android:id="@+id/action_navigation_journal_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_onboarding"
+        android:name="org.insbaixcamp.gratitude.journal.daily.ui.onboarding.OnboardingFragment"
+        android:label="fragment_onboarding"
+        tools:layout="@layout/fragment_onboarding" >
+        <action
+            android:id="@+id/action_navigation_onboarding_to_navigation_onboarding2F"
+            app:destination="@id/navigation_onboarding2" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_onboarding3"
+        android:name="org.insbaixcamp.gratitude.journal.daily.ui.onboarding.Onboarding3Fragment"
+        android:label="fragment_onboarding3"
+        tools:layout="@layout/fragment_onboarding3" >
+        <action
+            android:id="@+id/action_navigation_onboarding3_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_onboarding2"
+        android:name="org.insbaixcamp.gratitude.journal.daily.ui.onboarding.Onboarding2Fragment"
+        android:label="fragment_onboarding2"
+        tools:layout="@layout/fragment_onboarding2" >
+        <action
+            android:id="@+id/action_onboarding2Fragment_to_onboarding3Fragment"
+            app:destination="@id/navigation_onboarding3" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_onboarding0"
+        android:name="org.insbaixcamp.gratitude.journal.daily.ui.onboarding.Onboarding0Fragment"
+        android:label="fragment_onboarding0"
+        tools:layout="@layout/fragment_onboarding0" >
+        <action
+            android:id="@+id/action_navigation_onboarding0_to_navigation_onboarding"
+            app:destination="@id/navigation_onboarding" />
+    </fragment>
+</navigation>
