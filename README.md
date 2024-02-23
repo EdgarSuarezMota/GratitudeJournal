@@ -25,10 +25,10 @@ Para garantizar el correcto funcionamiento de la aplicación, se requiere el sig
   - Este permiso permite que la aplicación acceda a Internet para interactuar con Firebase y almacenar/recuperar datos en la nube.
 
 ## Capturas de Pantalla
-![Inicio](https://example.com/gratitudejournal/screenshots/home.png)
-![Registro Diario](https://example.com/gratitudejournal/screenshots/journal.png)
-![Estadísticas](https://example.com/gratitudejournal/screenshots/statistics.png)
-![Configuración](https://example.com/gratitudejournal/screenshots/statistics.png)
+![Inicio](https://github.com/EdgarSuarezMota/GratitudeJournal/blob/master/Imagen7.png)
+![Registro Diario](https://github.com/EdgarSuarezMota/GratitudeJournal/blob/master/Imagen8.png)
+![Estadísticas](https://github.com/EdgarSuarezMota/GratitudeJournal/blob/master/Imagen9.png)
+![Configuración](https://github.com/EdgarSuarezMota/GratitudeJournal/blob/master/Imagen10.png)
 
 ## Uso
 1. Abre la aplicación.
