@@ -28,6 +28,7 @@ Para garantizar el correcto funcionamiento de la aplicación, se requiere el sig
 ![Inicio](https://example.com/gratitudejournal/screenshots/home.png)
 ![Registro Diario](https://example.com/gratitudejournal/screenshots/journal.png)
 ![Estadísticas](https://example.com/gratitudejournal/screenshots/statistics.png)
+![Configuración](https://example.com/gratitudejournal/screenshots/statistics.png)
 
 ## Uso
 1. Abre la aplicación.
